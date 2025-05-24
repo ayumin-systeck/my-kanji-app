@@ -7,15 +7,15 @@ import KanjiCard from './components/KanjiCard';
 const question = {
     kanji: '火',
     images: [
-        { id: 1, src: '/img/fire.png', match: true },
-        { id: 2, src: '/img/water.png', match: false },
-        { id: 3, src: '/img/tree.png', match: false },
-        { id: 4, src: '/img/mountain.png', match: false },
-        { id: 5, src: '/img/river.png', match: false },
-        { id: 6, src: '/img/sun.png', match: false },
-        { id: 7, src: '/img/cloud.png', match: false },
-        { id: 8, src: '/img/stone.png', match: false },
-        { id: 9, src: '/img/moon.png', match: false },
+        { id: 1, src: process.env.PUBLIC_URL + '/img/fire.png', match: true },
+        { id: 2, src: process.env.PUBLIC_URL + '/img/water.png', match: false },
+        { id: 3, src: process.env.PUBLIC_URL + '/img/tree.png', match: false },
+        { id: 4, src: process.env.PUBLIC_URL + '/img/mountain.png', match: false },
+        { id: 5, src: process.env.PUBLIC_URL + '/img/river.png', match: false },
+        { id: 6, src: process.env.PUBLIC_URL + '/img/sun.png', match: false },
+        { id: 7, src: process.env.PUBLIC_URL + '/img/cloud.png', match: false },
+        { id: 8, src: process.env.PUBLIC_URL + '/img/stone.png', match: false },
+        { id: 9, src: process.env.PUBLIC_URL + '/img/moon.png', match: false },
     ],
 };
 
